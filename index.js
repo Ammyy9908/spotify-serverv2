@@ -7,7 +7,7 @@ var querystring = require('querystring');
 const request = require('request');
 
 // backend
-var redirect_uri = 'http://localhost:5000/callback';
+var redirect_uri = 'https://spotifycloneserver.herokuapp.com/callback';
 var client_id = '60ae4365ea4842d292e79e6ab9f2503c';
 var client_secret = '4c0919691e8549afad4a68700ce5aeca';
 
