@@ -42,16 +42,7 @@ app.get('/callback', function(req, res) {
           const {access_token,refresh_token} = body;
           res.redirect(`http://localhost:3000?access_token=${access_token}&refresh_token=${refresh_token}`)
         }
-      });
-
-      
-
-
-      
-
-
-
-    
+      });   
   });
 
 
