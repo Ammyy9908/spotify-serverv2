@@ -48,7 +48,7 @@ app.get('/callback', function(req, res) {
 
 
 app.get('/login', function(req, res) {
-  var scope = 'user-read-private user-read-email user-read-currently-playing streaming user-read-recently-played user-top-read user-read-playback-state user-library-read';
+  var scope = 'user-read-private user-read-email user-read-currently-playing streaming user-read-recently-played user-top-read user-read-playback-state user-library-read user-library-modify';
 
   res.redirect('https://accounts.spotify.com/authorize?' +
   querystring.stringify({
